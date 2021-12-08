@@ -1,0 +1,102 @@
+body {
+  background: white;
+}
+.text-center {
+  text-align: center;
+}
+#logo {
+  width: 400px;
+  position: relative;
+}
+.newlogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.pull-right {
+  float: right;
+}
+.clearfix {
+  display: block;
+}
+a {
+  color: black;
+}
+b {
+  color: blue;
+}
+.text-primary {
+  color: black;
+}
+input[type="checkbox"] {
+  width: auto;
+}
+button {
+  background: orange;
+  width: 100%;
+  border: 1px;
+  padding: 10px 15px;
+  color: black;
+  font-size: 20px;
+}
+button2 {
+  background: silver;
+  width: 100%;
+  border: 1px;
+  padding: 10px 15px;
+  color: black;
+  font-size: 20px;
+}
+.input-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+.input-group label {
+  position: absolute;
+  top: 9px;
+  left: 10px;
+  font-size: 16px;
+  color: silver;
+  font-weight: normal;
+  padding: 2px 5px;
+  z-index: 5;
+}
+.input-group input {
+  outline: none;
+  display: block;
+  width: 100%;
+  height: 40px;
+  position: relative;
+  border: 1px solid silver;
+  padding: 10px 10px;
+  background: white;
+  box-sizing: border-box;
+  font-weight: 400;
+}
+.wrapper {
+  width: 550px;
+  background: #fff;
+  margin: 20px auto;
+  min-height: 200px;
+  border: 1px solid #f3f3f3;
+}
+.wrapper .inner-warpper {
+  padding: 50px 30px 60px;
+  box-shadow: 1px 1.732px 10px 0px rgba(0, 0, 0, 0.063);
+}
+.direction {
+  width: 200px;
+  position: fixed;
+  top: 120px;
+  left: 20px;
+  font-size: 14px;
+  line-height: 1.2;
+  text-align: center;
+  background: #9365B8;
+  padding: 10px;
+  color: #fff;
+}
+.footer {
+  text-align: center;
+}
